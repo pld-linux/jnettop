@@ -1,12 +1,12 @@
 Summary:	Network traffic tracker
 Summary(pl):	Narzêdzie do ¶ledzenia ruchu sieciowego
 Name:		jnettop
-Version:	0.8.1
-Release:	2
+Version:	0.9
+Release:	1
 License:	GPL
 Group:		Network/Monitoring
 Source0:	http://jnettop.kubs.info/dist/%{name}-%{version}.tar.gz
-# Source0-md5:	4c7d875f5aa0cd681cb20b179ce92bb0
+# Source0-md5:	33ff9857b577c8d226639f55bb5cd69e
 URL:		http://jnettop.kubs.info/
 BuildRequires:	autoconf
 BuildRequires:	automake
