@@ -36,7 +36,7 @@ rm -f missing
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
+CPPFLAGS="-I%{_includedir}/ncurses"
 %configure
 %{__make}
 
