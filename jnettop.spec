@@ -4,7 +4,7 @@ Name:		jnettop
 Version:	0.9
 Release:	2
 License:	GPL
-Group:		Network/Monitoring
+Group:		Networking/Utilities
 Source0:	http://jnettop.kubs.info/dist/%{name}-%{version}.tar.gz
 # Source0-md5:	33ff9857b577c8d226639f55bb5cd69e
 URL:		http://jnettop.kubs.info/
