@@ -10,9 +10,10 @@ Source0:	http://jnettop.kubs.info/dist/%{name}-%{version}.tar.gz
 URL:		http://jnettop.kubs.info/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	ncurses-devel
-BuildRequires:	libpcap-devel
 BuildRequires:	glib2-devel
+BuildRequires:	libpcap-devel
+BuildRequires:	ncurses-devel
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
