@@ -36,7 +36,7 @@ rm -f missing
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-CFLAGS="%{rpmcflags} -I /usr/include/ncurses/"
+CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 %configure
 %{__make}
 
@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog INSTALL NEWS README .jnettop
+%doc AUTHORS ChangeLog NEWS README .jnettop
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/*
