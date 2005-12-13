@@ -17,15 +17,15 @@ BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Nettop is visualising active network traffic as top does with processes.
-It displays active network streams sorted by bandwidth used. This is
-often usable when you want to get a fast grip of what is going on on your
-outbound router.
+Nettop is visualising active network traffic as top does with
+processes. It displays active network streams sorted by bandwidth
+used. This is often usable when you want to get a fast grip of what is
+going on on your outbound router.
 
 %description -l pl
-Nettop pokazuje aktywny ruch sieciowy podobnie jak top procesy. Wy¶wietla
-aktywne sieciowe strumienie posortowane wg ilo¶ci u¿ytego pasma. Jest czêsto
-u¿ywany do stwierdzenia co siê dzieje na ruterach.
+Nettop pokazuje aktywny ruch sieciowy podobnie jak top procesy.
+Wy¶wietla aktywne sieciowe strumienie posortowane wg ilo¶ci u¿ytego
+pasma. Jest czêsto u¿ywany do stwierdzenia co siê dzieje na ruterach.
 
 %prep
 %setup -q
@@ -36,7 +36,7 @@ rm -f missing
 %{__autoconf}
 %{__autoheader}
 %{__automake}
-CPPFLAGS="-I%{_includedir}/ncurses"
+CPPFLAGS="-I/usr/include/ncurses"
 %configure
 %{__make}
 
