@@ -1,5 +1,5 @@
 Summary:	Network traffic tracker
-Summary(pl):	Narzêdzie do ¶ledzenia ruchu sieciowego
+Summary(pl.UTF-8):   NarzÄ™dzie do Å›ledzenia ruchu sieciowego
 Name:		jnettop
 Version:	0.10.1
 Release:	1
@@ -22,10 +22,10 @@ processes. It displays active network streams sorted by bandwidth
 used. This is often usable when you want to get a fast grip of what is
 going on on your outbound router.
 
-%description -l pl
+%description -l pl.UTF-8
 Nettop pokazuje aktywny ruch sieciowy podobnie jak top procesy.
-Wy¶wietla aktywne sieciowe strumienie posortowane wg ilo¶ci u¿ytego
-pasma. Jest czêsto u¿ywany do stwierdzenia co siê dzieje na ruterach.
+WyÅ›wietla aktywne sieciowe strumienie posortowane wg iloÅ›ci uÅ¼ytego
+pasma. Jest czÄ™sto uÅ¼ywany do stwierdzenia co siÄ™ dzieje na ruterach.
 
 %prep
 %setup -q
