@@ -1,5 +1,5 @@
 Summary:	Network traffic tracker
-Summary(pl.UTF-8):   Narzędzie do śledzenia ruchu sieciowego
+Summary(pl.UTF-8):	Narzędzie do śledzenia ruchu sieciowego
 Name:		jnettop
 Version:	0.10.1
 Release:	1
