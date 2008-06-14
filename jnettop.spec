@@ -2,7 +2,7 @@ Summary:	Network traffic tracker
 Summary(pl.UTF-8):	Narzędzie do śledzenia ruchu sieciowego
 Name:		jnettop
 Version:	0.13.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://jnettop.kubs.info/dist/%{name}-%{version}.tar.gz
